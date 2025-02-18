@@ -1,0 +1,25 @@
+.s_website_form {
+                background: #1a1a1a;
+                padding: 20px;
+                border-radius: 10px;
+                max-width: 400px;
+                margin: 0 auto; /* Remove auto margin to avoid extra blank spaces */
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+                }
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+                 /* Adjust the background color as needed */
+    }
+#wrap {
+                width: 100%; /* Full width of the viewport */
+                height: 100%; /* Full height of the viewport */
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                }

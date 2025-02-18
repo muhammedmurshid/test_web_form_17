@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="model_testing_back_form_view" model="ir.ui.view">
+        <field name="name">Testing Backend</field>
+        <field name="model">backend.data</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="Types">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                            <field name="mail"/>
+                            <field name="phone"/>
+                            <field name="course"/>
+
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="model_testing_backend_tree_view" model="ir.ui.view">
+        <field name="name">Testing</field>
+        <field name="model">backend.data</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="mail"/>
+                <field name="phone"/>
+                <field name="course"/>
+            </tree>
+
+        </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="model_testing_action_backend">
+        <field name="name">Testing Backend</field>
+        <field name="res_model">backend.data</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem name="Website Leads"
+              id="model_testing__backend_main_menu_view"
+              web_icon="/test_web_form_17,static/description/icon.png"
+              sequence="1"/>
+
+    <menuitem name="Website Leads"
+              id="model_testing_back"
+              action="model_testing_action_backend"
+              parent="model_testing__backend_main_menu_view"
+              sequence="2"/>
+
+
+</odoo>

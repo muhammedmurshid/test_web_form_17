@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record model="ir.module.category" id="module_test_web_form">
+        <field name="name">Web Form</field>
+        <field name="sequence">21</field>
+        <field name="visible" eval="0"/>
+    </record>
+    <record id="test_manager" model="res.groups">
+        <field name="name">Test Manager</field>
+        <field name="category_id" ref="module_test_web_form"/>
+    </record>
+</odoo>
