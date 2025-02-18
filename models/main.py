@@ -6,11 +6,11 @@ import requests
 class ZohoIntegration(http.Controller):
     @http.route(['/lead_form'], type='http', auth='public', website=True, csrf=False)
     def lead_form(self, **kwargs):
-        course = request.env['op.course'].search([])
-        values = {
-            'courses': course
-        }
-        return request.render('test_web_form_17.lead_web_form_template', values)
+        # course = request.env['op.course'].search([])
+        # values = {
+        #     'courses': course
+        # }
+        return request.render('test_web_form_17.lead_web_form_template', )
 
     @http.route(['/lead_form/submit'], type='http', auth='public', website=True, csrf=False, )
     def lead_form_submit(self, **kwargs):
