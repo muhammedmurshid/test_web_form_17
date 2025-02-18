@@ -93,18 +93,25 @@
                                 <!-- Course Field -->
                                 <div class="form-group col-12 s_website_form_field s_website_form_required">
                                     <div class="row s_col_no_resize s_col_no_bgcolor">
-<!--                                        <label class="col-form-label col-sm-auto s_website_form_label"-->
-<!--                                               style="width: 200px" for="studio1">-->
-<!--                                            <span class="s_website_form_label_content">Course</span>-->
-<!--                                        </label>-->
                                         <div class="col-sm">
-                                            <select name="course_id" t-attf-class="form-control s_website_form_input"
-                                                    required="1">
-                                                <t t-foreach="courses or []" t-as="course">
-                                                    <option t-att-value="course.id">
-                                                        <t t-esc="course.name"/>
-                                                    </option>
-                                                </t>
+                                            <select id="course" class="form-control s_website_form_input" name="course_id">
+                                                <option value="CA Foundation">CA Foundation</option>
+                                                <option value="CA Intermediate">CA Intermediate</option>
+                                                <option value="CSEET">CSEET</option>
+                                                <option value="CA Final">CA Final</option>
+                                                <option value="ACCA">ACCA</option>
+                                                <option value="BCom + ACCA">BCom + ACCA</option>
+                                                <option value="MBA + ACCA">MBA + ACCA</option>
+                                                <option value="CMA USA">CMA USA</option>
+                                                <option value="CMA CAT">CMA CAT</option>
+                                                <option value="CMA Intermediate">CMA Intermediate</option>
+                                                <option value="CMA Final">CMA Final</option>
+                                                <option value="CPA USA">CPA USA</option>
+                                                <option value="MCom + CPA">MCom + CPA</option>
+                                                <option value="CIA">CIA</option>
+                                                <option value="EA">EA</option>
+                                                <option value="CS Executive">CS Executive</option>
+                                                <option value="Nil">Nil</option>
                                             </select>
                                         </div>
                                     </div>
