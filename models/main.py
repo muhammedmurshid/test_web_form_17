@@ -31,7 +31,7 @@ class ZohoIntegration(http.Controller):
             'college_name': 'nil',
             'course_type': 'nil',
             'academic_year': '2025-2026',
-            'lead_quality': 'nil',
+            'lead_quality': 'new',
 
 
         })

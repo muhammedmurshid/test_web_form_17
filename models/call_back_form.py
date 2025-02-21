@@ -27,12 +27,12 @@ class CallBackLeadForm(http.Controller):
             'leads_source': source.id,
             'district': 'nil',
             'mode_of_study': 'nil',
-            'remarks_lead_user_id': remarks.id,
+            # 'remarks_lead_user_id': remarks.id,
             'college_name': 'nil',
             'course_type': 'nil',
             'academic_year': 'nil',
-            'lead_quality': 'nil',
-            'course_level': level.id
+            'lead_quality': 'new',
+            # 'course_level': level.id
 
         })
 
