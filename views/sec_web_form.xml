@@ -81,7 +81,7 @@
                             <div class="form-group" style="margin-top: 15px;">
                                 <input id="phone" type="text" class="form-control" name="phone"
                                        placeholder="Contact Number"
-                                       style="width: 100%; height: 40px; padding: 10px; font-size: 14px; border: 1px solid #ccc; border-radius: 5px;"/>
+                                       style="width: 100%; height: 40px; padding: 10px; font-size: 14px; border: 1px solid #ccc; border-radius: 5px;" required="required"/>
                             </div>
 
                             <!-- Submit Button -->

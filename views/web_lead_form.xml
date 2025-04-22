@@ -75,7 +75,7 @@
                                     <div class="row s_col_no_resize s_col_no_bgcolor">
                                         <div class="col-sm">
                                             <input id="phone" type="text" class="form-control s_website_form_input"
-                                                   name="phone" placeholder="Phone"/>
+                                                   name="phone" placeholder="Phone" required="required"/>
                                         </div>
                                     </div>
                                 </div>
